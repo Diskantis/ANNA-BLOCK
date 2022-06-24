@@ -17,6 +17,43 @@ h1 {
     max-width: 540px;
     margin-bottom: 65px;
 }
+.title-50 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 59px;
+    letter-spacing: -1.5px;
+    max-width: 500px;
+}
+.title-50 span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    display: block;
+}
+.title-40 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 59px;
+    letter-spacing: -1.2px;
+}
+.title-40 span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: -6px;
+    display: block;
+}
+.page-stat .title-50, .page-screen .title-50 {
+    text-align: center;
+    margin: 0 auto;
+}
 .wrap {
     max-width: 1110px;
     margin: 0 auto;
@@ -120,6 +157,7 @@ h1 {
 .list-stat {
     list-style-type: none;
     justify-content: space-around;
+    margin-top: 76px;
     display: flex;
 }
 .list-stat>li {
@@ -137,4 +175,63 @@ h1 {
     text-align: center;
     margin-bottom: 24px;
     display: block;
-} 
+}
+.screen {
+    margin-top: 33px;
+    margin-left: -10px;
+    margin-bottom: -7px;
+}
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+.box-price-item {
+    background-color: #f5faff;
+    margin: 10px;
+}
+.box-price-item h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #192b59;
+}
+.box-price-item h3 span {
+    font-size: 20px;
+}
+.box-price-item p {
+    font-size: 14px;
+    color: #0084ff;
+    text-transform: uppercase;
+}
+.box-price-item:first-child h3 {
+    margin-bottom: 35px;
+}
+.box-price-item h3 span:first-child {
+    color: #192b59;
+}
+.box-price-item h3 span:last-child {
+    color: #7b8ab2;
+}
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+/* PAGE */
+
+.page-stat, .page-screen{
+    background-color: #edf6ff;
+    padding: 97px 0 97px 0;
+}
+.page-stat{
+    padding: 97px 0 97px 0;
+}
+.page-screen, .page-plan {
+    text-align: center;
+}
+.page-screen {
+    padding: 97px 0 0 0;
+}
